@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="Starter Angular and Spring Boot projects added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="Entities Product and ProductCategory added to backend app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +28,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project",
+    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project/spring-boot-ecommerce/src/main/java/com/ecommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692181723476</updated>
-      <workItem from="1692181724496" duration="1685000" />
+      <workItem from="1692181724496" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="Starter Angular and Spring Boot projects added">
       <created>1692182929114</created>
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692182929114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Entities Product and ProductCategory added to backend app">
+      <created>1692183627396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692183627396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starter Angular and Spring Boot projects added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starter Angular and Spring Boot projects added" />
+    <MESSAGE value="Entities Product and ProductCategory added to backend app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entities Product and ProductCategory added to backend app" />
   </component>
 </project>
