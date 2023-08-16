@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="Entities Product and ProductCategory added to backend app" />
+    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="Configuration for REST repositories added to provide read-only functionality" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +43,10 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\spring-boot-ecommerce\src\main\java\com\ecommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$/angular-ecommerce" />
       <node-interpreter value="project" />
       <envs />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692181723476</updated>
-      <workItem from="1692181724496" duration="2053000" />
+      <workItem from="1692181724496" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="Starter Angular and Spring Boot projects added">
       <created>1692182929114</created>
@@ -96,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692183627396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repositories for Product and ProductCategory added to backend app">
+      <created>1692183872499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692183872499</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Configuration for REST repositories added to provide read-only functionality">
+      <created>1692184120417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692184120417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +131,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starter Angular and Spring Boot projects added" />
     <MESSAGE value="Entities Product and ProductCategory added to backend app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entities Product and ProductCategory added to backend app" />
+    <MESSAGE value="Repositories for Product and ProductCategory added to backend app" />
+    <MESSAGE value="Configuration for REST repositories added to provide read-only functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration for REST repositories added to provide read-only functionality" />
   </component>
 </project>
