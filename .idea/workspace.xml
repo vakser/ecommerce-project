@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product list component added to Angular application">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product class and service added to Angular app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <updated>1692186408891</updated>
       <workItem from="1692186410202" duration="445000" />
       <workItem from="1692187018273" duration="1813000" />
-      <workItem from="1692194323465" duration="628000" />
+      <workItem from="1692194323465" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -114,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692189080801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Product class and service added to Angular app">
+      <created>1692195030702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692195030702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project structure updated" />
     <MESSAGE value="Product list component added to Angular application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product list component added to Angular application" />
+    <MESSAGE value="Product class and service added to Angular app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product class and service added to Angular app" />
   </component>
 </project>
