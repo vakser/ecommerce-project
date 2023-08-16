@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/SpringBootEcommerceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/test/java/com/ecommerce/SpringBootEcommerceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="c2a7daa4-b32f-4a49-b562-181d08b91456" name="Changes" comment="Starter Angular and Spring Boot projects added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,11 +77,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692181723476</updated>
-      <workItem from="1692181724496" duration="937000" />
+      <workItem from="1692181724496" duration="1685000" />
     </task>
+    <task id="LOCAL-00001" summary="Starter Angular and Spring Boot projects added">
+      <created>1692182929114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692182929114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Starter Angular and Spring Boot projects added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starter Angular and Spring Boot projects added" />
   </component>
 </project>
