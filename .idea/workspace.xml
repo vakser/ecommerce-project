@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product list component in Angular app updated">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-table.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce-project.iml" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product list table component added to Angular app for better presentation of product list.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-table.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/10 - eCommerce Project Angular Front End Product List/03-frontend-html-table",
+    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project/angular-ecommerce/src/app/components/product-list",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,9 +67,14 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\app\components\product-list" />
+      <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets\images" />
+      <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -106,7 +117,9 @@
       <workItem from="1692194323465" duration="2434000" />
       <workItem from="1692200858246" duration="864000" />
       <workItem from="1692201737028" duration="757000" />
-      <workItem from="1692202615199" duration="1035000" />
+      <workItem from="1692202615199" duration="2132000" />
+      <workItem from="1692247757017" duration="1248000" />
+      <workItem from="1692249932526" duration="3272000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -150,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Product list table component added to Angular app for better presentation of product list.">
+      <option name="closed" value="true" />
+      <created>1692203848614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692203848614</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +183,7 @@
     <MESSAGE value="Product class and service added to Angular app" />
     <MESSAGE value="Product service in Angular project updated" />
     <MESSAGE value="Product list component in Angular app updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product list component in Angular app updated" />
+    <MESSAGE value="Product list table component added to Angular app for better presentation of product list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Product list table component added to Angular app for better presentation of product list." />
   </component>
 </project>
