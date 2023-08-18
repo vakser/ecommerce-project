@@ -4,109 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Support for Product list grid added">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/books/book-luv2code-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/coffeemugs/coffeemug-luv2code-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/luggagetags/luggagetag-luv2code-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/assets/images/products/mousepads/mousepad-luv2code-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-scripts/refresh-database-with-100-products.sql" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product images and SQL-script for DB creation added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,30 +31,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "59f9c2e7566ecb837290fe0e9a82c58d",
-    "ts.external.directory.path": "C:\\Users\\vakal\\Desktop\\Down\\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\\ecommerce-project\\angular-ecommerce\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vakal/Desktop/Down/ecommerce-project-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;59f9c2e7566ecb837290fe0e9a82c58d&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vakal\\Desktop\\Down\\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\\ecommerce-project\\angular-ecommerce\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project" />
@@ -213,7 +113,11 @@
       <workItem from="1692202615199" duration="2132000" />
       <workItem from="1692247757017" duration="1248000" />
       <workItem from="1692249932526" duration="3842000" />
-      <workItem from="1692254835887" duration="2027000" />
+      <workItem from="1692254835887" duration="2218000" />
+      <workItem from="1692257389656" duration="535000" />
+      <workItem from="1692258606613" duration="15000" />
+      <workItem from="1692272972604" duration="8000" />
+      <workItem from="1692332673823" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -281,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692255399341</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Product images and SQL-script for DB creation added">
+      <option name="closed" value="true" />
+      <created>1692256995844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692256995844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +208,7 @@
     <MESSAGE value="Product list table component added to Angular app for better presentation of product list." />
     <MESSAGE value="Advanced functionality and styling of the home page added." />
     <MESSAGE value="Support for Product list grid added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support for Product list grid added" />
+    <MESSAGE value="Product images and SQL-script for DB creation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product images and SQL-script for DB creation added" />
   </component>
 </project>
