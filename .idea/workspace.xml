@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product images and SQL-script for DB creation added">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Routes for searching defined and Router Module configured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,8 @@
       <workItem from="1692257389656" duration="535000" />
       <workItem from="1692258606613" duration="15000" />
       <workItem from="1692272972604" duration="8000" />
-      <workItem from="1692332673823" duration="640000" />
+      <workItem from="1692332673823" duration="808000" />
+      <workItem from="1692334249976" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -193,11 +194,30 @@
       <option name="project" value="LOCAL" />
       <updated>1692256995844</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Routes for searching defined and Router Module configured">
+      <option name="closed" value="true" />
+      <created>1692333439269</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692333439269</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project structure updated" />
@@ -209,6 +229,7 @@
     <MESSAGE value="Advanced functionality and styling of the home page added." />
     <MESSAGE value="Support for Product list grid added" />
     <MESSAGE value="Product images and SQL-script for DB creation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product images and SQL-script for DB creation added" />
+    <MESSAGE value="Routes for searching defined and Router Module configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routes for searching defined and Router Module configured" />
   </component>
 </project>
