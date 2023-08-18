@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Routes for searching defined and Router Module configured">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Router outlet defined and router links to pass category id param set up.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,8 @@
       <workItem from="1692258606613" duration="15000" />
       <workItem from="1692272972604" duration="8000" />
       <workItem from="1692332673823" duration="808000" />
-      <workItem from="1692334249976" duration="1132000" />
+      <workItem from="1692334249976" duration="1337000" />
+      <workItem from="1692337292908" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692333439269</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Router outlet defined and router links to pass category id param set up.">
+      <option name="closed" value="true" />
+      <created>1692335935906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692335935906</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +240,7 @@
     <MESSAGE value="Support for Product list grid added" />
     <MESSAGE value="Product images and SQL-script for DB creation added" />
     <MESSAGE value="Routes for searching defined and Router Module configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routes for searching defined and Router Module configured" />
+    <MESSAGE value="Router outlet defined and router links to pass category id param set up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Router outlet defined and router links to pass category id param set up." />
   </component>
 </project>
