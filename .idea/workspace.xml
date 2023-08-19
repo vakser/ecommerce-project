@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Search component updated to send data to search route.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product list component enhanced to search for products with product service.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <workItem from="1692344022313" duration="21000" />
       <workItem from="1692419320564" duration="6583000" />
       <workItem from="1692442271143" duration="26000" />
-      <workItem from="1692454952687" duration="3677000" />
+      <workItem from="1692454952687" duration="4785000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -295,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692458335965</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Product list component enhanced to search for products with product service.">
+      <option name="closed" value="true" />
+      <created>1692459303245</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692459303245</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +342,7 @@
     <MESSAGE value="Functionality for searching product by keyword added to Spring Boot app" />
     <MESSAGE value="Angular route for searching added and component for searching created." />
     <MESSAGE value="Search component updated to send data to search route." />
-    <option name="LAST_COMMIT_MESSAGE" value="Search component updated to send data to search route." />
+    <MESSAGE value="Product list component enhanced to search for products with product service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Product list component enhanced to search for products with product service." />
   </component>
 </project>
