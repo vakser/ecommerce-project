@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Hard coded categories of products in product category menu changed by dynamic code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/ProductRepository.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Functionality for searching product by keyword added to Spring Boot app">
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +122,7 @@
       <workItem from="1692344022313" duration="21000" />
       <workItem from="1692419320564" duration="6583000" />
       <workItem from="1692442271143" duration="26000" />
-      <workItem from="1692454952687" duration="1036000" />
+      <workItem from="1692454952687" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692427308447</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Functionality for searching product by keyword added to Spring Boot app">
+      <option name="closed" value="true" />
+      <created>1692456489376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692456489376</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +314,7 @@
     <MESSAGE value="Product category class and product category menu component created in Angular app" />
     <MESSAGE value="Product service of Angular app updated to call URL on Spring Boot app" />
     <MESSAGE value="Hard coded categories of products in product category menu changed by dynamic code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hard coded categories of products in product category menu changed by dynamic code" />
+    <MESSAGE value="Functionality for searching product by keyword added to Spring Boot app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functionality for searching product by keyword added to Spring Boot app" />
   </component>
 </project>
