@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Backend REST API modified to expose entities ids">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product-category.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product-category.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Product category class and product category menu component created in Angular app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,7 @@
       <workItem from="1692334249976" duration="1337000" />
       <workItem from="1692337292908" duration="2615000" />
       <workItem from="1692344022313" duration="21000" />
-      <workItem from="1692419320564" duration="3030000" />
+      <workItem from="1692419320564" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -251,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692420506269</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Product category class and product category menu component created in Angular app">
+      <option name="closed" value="true" />
+      <created>1692425144605</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692425144605</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +286,7 @@
     <MESSAGE value="Spring Boot app functionality for searching for products by category added" />
     <MESSAGE value="Angular app search for products by category updated" />
     <MESSAGE value="Backend REST API modified to expose entities ids" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend REST API modified to expose entities ids" />
+    <MESSAGE value="Product category class and product category menu component created in Angular app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product category class and product category menu component created in Angular app" />
   </component>
 </project>
