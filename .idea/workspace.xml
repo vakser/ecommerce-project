@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Functionality for searching product by keyword added to Spring Boot app">
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular route for searching added and component for searching created.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/search/search.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -122,7 +125,7 @@
       <workItem from="1692344022313" duration="21000" />
       <workItem from="1692419320564" duration="6583000" />
       <workItem from="1692442271143" duration="26000" />
-      <workItem from="1692454952687" duration="1370000" />
+      <workItem from="1692454952687" duration="2740000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -278,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692456489376</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Angular route for searching added and component for searching created.">
+      <option name="closed" value="true" />
+      <created>1692457036344</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692457036346</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +326,7 @@
     <MESSAGE value="Product service of Angular app updated to call URL on Spring Boot app" />
     <MESSAGE value="Hard coded categories of products in product category menu changed by dynamic code" />
     <MESSAGE value="Functionality for searching product by keyword added to Spring Boot app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functionality for searching product by keyword added to Spring Boot app" />
+    <MESSAGE value="Angular route for searching added and component for searching created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular route for searching added and component for searching created." />
   </component>
 </project>
