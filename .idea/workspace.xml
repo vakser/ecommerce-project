@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product class updated, new component for product details created, new Angular route for product details added">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Router links added to the product-list-grid html page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,8 @@
       <workItem from="1692419320564" duration="6583000" />
       <workItem from="1692442271143" duration="26000" />
       <workItem from="1692454952687" duration="5585000" />
-      <workItem from="1692503961572" duration="4146000" />
+      <workItem from="1692503961572" duration="4388000" />
+      <workItem from="1692534948528" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -330,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692505060034</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Router links added to the product-list-grid html page.">
+      <option name="closed" value="true" />
+      <created>1692511160298</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692511160298</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project structure updated" />
     <MESSAGE value="Product list component added to Angular application" />
     <MESSAGE value="Product class and service added to Angular app" />
     <MESSAGE value="Product service in Angular project updated" />
@@ -373,6 +379,7 @@
     <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
     <MESSAGE value="Functionality of displaying a message in case of no products are found added" />
     <MESSAGE value="Angular product class updated, new component for product details created, new Angular route for product details added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular product class updated, new component for product details created, new Angular route for product details added" />
+    <MESSAGE value="Router links added to the product-list-grid html page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Router links added to the product-list-grid html page." />
   </component>
 </project>
