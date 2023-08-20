@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product service updated to call URL on Spring Boot app">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product details component view updated to add more product details.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/polyfills.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;59f9c2e7566ecb837290fe0e9a82c58d&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vakal\\Desktop\\Down\\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\\ecommerce-project\\angular-ecommerce\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -68,7 +70,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -126,7 +128,8 @@
       <workItem from="1692442271143" duration="26000" />
       <workItem from="1692454952687" duration="5585000" />
       <workItem from="1692503961572" duration="4388000" />
-      <workItem from="1692534948528" duration="2514000" />
+      <workItem from="1692534948528" duration="4185000" />
+      <workItem from="1692546116142" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -354,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692536562980</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Angular product details component view updated to add more product details.">
+      <option name="closed" value="true" />
+      <created>1692537726661</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1692537726661</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product class and service added to Angular app" />
     <MESSAGE value="Product service in Angular project updated" />
     <MESSAGE value="Product list component in Angular app updated" />
     <MESSAGE value="Product list table component added to Angular app for better presentation of product list." />
@@ -397,6 +407,7 @@
     <MESSAGE value="Router links added to the product-list-grid html page." />
     <MESSAGE value="Angular product details component enhanced to retrieve product from product service" />
     <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular product service updated to call URL on Spring Boot app" />
+    <MESSAGE value="Angular product details component view updated to add more product details." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular product details component view updated to add more product details." />
   </component>
 </project>
