@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product details component enhanced to retrieve product from product service">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product service updated to call URL on Spring Boot app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <workItem from="1692442271143" duration="26000" />
       <workItem from="1692454952687" duration="5585000" />
       <workItem from="1692503961572" duration="4388000" />
-      <workItem from="1692534948528" duration="1561000" />
+      <workItem from="1692534948528" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -346,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692535657175</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Angular product service updated to call URL on Spring Boot app">
+      <option name="closed" value="true" />
+      <created>1692536562980</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692536562980</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,11 +392,11 @@
     <MESSAGE value="Angular route for searching added and component for searching created." />
     <MESSAGE value="Search component updated to send data to search route." />
     <MESSAGE value="Product list component enhanced to search for products with product service." />
-    <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
     <MESSAGE value="Functionality of displaying a message in case of no products are found added" />
     <MESSAGE value="Angular product class updated, new component for product details created, new Angular route for product details added" />
     <MESSAGE value="Router links added to the product-list-grid html page." />
     <MESSAGE value="Angular product details component enhanced to retrieve product from product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular product details component enhanced to retrieve product from product service" />
+    <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular product service updated to call URL on Spring Boot app" />
   </component>
 </project>
