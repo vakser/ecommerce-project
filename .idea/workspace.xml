@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product service updated to call URL on Spring Boot app">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Functionality of displaying a message in case of no products are found added">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-details/product-details.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/product.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -123,7 +128,8 @@
       <workItem from="1692344022313" duration="21000" />
       <workItem from="1692419320564" duration="6583000" />
       <workItem from="1692442271143" duration="26000" />
-      <workItem from="1692454952687" duration="5415000" />
+      <workItem from="1692454952687" duration="5585000" />
+      <workItem from="1692503961572" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -311,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692460313844</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Functionality of displaying a message in case of no products are found added">
+      <option name="closed" value="true" />
+      <created>1692460963300</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692460963300</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +366,7 @@
     <MESSAGE value="Search component updated to send data to search route." />
     <MESSAGE value="Product list component enhanced to search for products with product service." />
     <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular product service updated to call URL on Spring Boot app" />
+    <MESSAGE value="Functionality of displaying a message in case of no products are found added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functionality of displaying a message in case of no products are found added" />
   </component>
 </project>
