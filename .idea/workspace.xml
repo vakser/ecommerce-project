@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Change page-size functionality added to Angular product list component">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Max size set and boundary links added for Angular project pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,7 @@
       <workItem from="1692534948528" duration="4185000" />
       <workItem from="1692546116142" duration="871000" />
       <workItem from="1692591141356" duration="2982000" />
-      <workItem from="1692596900496" duration="5121000" />
+      <workItem from="1692596900496" duration="6516000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -413,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692604812621</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Max size set and boundary links added for Angular project pagination">
+      <option name="closed" value="true" />
+      <created>1692605404858</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692605404858</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Routes for searching defined and Router Module configured" />
     <MESSAGE value="Router outlet defined and router links to pass category id param set up." />
     <MESSAGE value="Product list component enhanced to read category id param" />
     <MESSAGE value="Spring Boot app functionality for searching for products by category added" />
@@ -456,6 +464,7 @@
     <MESSAGE value="HTML template enhanced to use ng-bootstrap pagination component" />
     <MESSAGE value="Drop-down list for page-size added to HTML template" />
     <MESSAGE value="Change page-size functionality added to Angular product list component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change page-size functionality added to Angular product list component" />
+    <MESSAGE value="Max size set and boundary links added for Angular project pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max size set and boundary links added for Angular project pagination" />
   </component>
 </project>
