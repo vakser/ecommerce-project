@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular product details component view updated to add more product details.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="ng-bootstrap installed and imported to Angular app module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,8 @@
       <workItem from="1692454952687" duration="5585000" />
       <workItem from="1692503961572" duration="4388000" />
       <workItem from="1692534948528" duration="4185000" />
-      <workItem from="1692546116142" duration="627000" />
+      <workItem from="1692546116142" duration="871000" />
+      <workItem from="1692591141356" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -365,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692537726661</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ng-bootstrap installed and imported to Angular app module">
+      <option name="closed" value="true" />
+      <created>1692546950406</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692546950406</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product service in Angular project updated" />
     <MESSAGE value="Product list component in Angular app updated" />
     <MESSAGE value="Product list table component added to Angular app for better presentation of product list." />
     <MESSAGE value="Advanced functionality and styling of the home page added." />
@@ -408,6 +414,7 @@
     <MESSAGE value="Angular product details component enhanced to retrieve product from product service" />
     <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
     <MESSAGE value="Angular product details component view updated to add more product details." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular product details component view updated to add more product details." />
+    <MESSAGE value="ng-bootstrap installed and imported to Angular app module" />
+    <option name="LAST_COMMIT_MESSAGE" value="ng-bootstrap installed and imported to Angular app module" />
   </component>
 </project>
