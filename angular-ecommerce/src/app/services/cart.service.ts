@@ -15,7 +15,7 @@ export class CartService {
   addToCart(theCartItem: CartItem) {
     // check if we already have the item in out cart
     let alreadyExistsInCart: boolean = false;
-    let existingCartItem: CartItem = undefined;
+    let existingCartItem: CartItem = undefined!;
     if (this.cartItems.length > 0) {
       // find the item in the cart based on item id
       for (let tempCartItem of this.cartItems) {
@@ -57,8 +57,8 @@ export class CartService {
     for (let tempCartItem of this.cartItems) {
       const subTotalPrice = tempCartItem.quantity * tempCartItem.unitPrice;
       console.log(`name: ${tempCartItem.name}, quantity=${tempCartItem.quantity}, unitPrice=${tempCartItem.unitPrice}, subTotalPrice=${subTotalPrice}`);
-      console.log(`totalPrice: ${totalPriceValue.toFixed(2)}, totalQuantity: ${totalQuantityValue}`);
-      console.log('-------');
     }
+    console.log(`totalPrice: ${totalPriceValue.toFixed(2)}, totalQuantity: ${totalQuantityValue}`);
+    console.log('-------');
   }
 }
