@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Model class cartItem created.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Cart service developed for Angular project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <workItem from="1692596900496" duration="8285000" />
       <workItem from="1692612476426" duration="872000" />
       <workItem from="1692678111851" duration="2993000" />
-      <workItem from="1692697629140" duration="2219000" />
+      <workItem from="1692697629140" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -465,7 +464,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692685041015</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Cart service developed for Angular project.">
+      <option name="closed" value="true" />
+      <created>1692700577235</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692700577236</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product category class and product category menu component created in Angular app" />
     <MESSAGE value="Product service of Angular app updated to call URL on Spring Boot app" />
     <MESSAGE value="Hard coded categories of products in product category menu changed by dynamic code" />
     <MESSAGE value="Functionality for searching product by keyword added to Spring Boot app" />
@@ -508,6 +514,7 @@
     <MESSAGE value="New Angular shopping cart status component created" />
     <MESSAGE value="Click handler for &quot;Add to cart&quot; button added, Angular product list component updated with click handler method." />
     <MESSAGE value="Model class cartItem created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Model class cartItem created." />
+    <MESSAGE value="Cart service developed for Angular project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart service developed for Angular project." />
   </component>
 </project>
