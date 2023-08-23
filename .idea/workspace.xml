@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Functionality of adding products to the cart implemented in Angular product details component">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-status/cart-status.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +135,7 @@
       <workItem from="1692697629140" duration="7633000" />
       <workItem from="1692714279880" duration="1741000" />
       <workItem from="1692716222849" duration="193000" />
-      <workItem from="1692760266389" duration="642000" />
+      <workItem from="1692760266389" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -520,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692716378686</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated.">
+      <option name="closed" value="true" />
+      <created>1692761015595</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692761015595</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product list component enhanced to search for products with product service." />
     <MESSAGE value="Functionality of displaying a message in case of no products are found added" />
     <MESSAGE value="Angular product class updated, new component for product details created, new Angular route for product details added" />
     <MESSAGE value="Router links added to the product-list-grid html page." />
@@ -563,6 +565,7 @@
     <MESSAGE value="Angular cart status component enhanced to subscribe to cart service, cart status component HTML updated to display cart total price and quantity." />
     <MESSAGE value="Angular project cart service refactored." />
     <MESSAGE value="Functionality of adding products to the cart implemented in Angular product details component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functionality of adding products to the cart implemented in Angular product details component" />
+    <MESSAGE value="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated." />
   </component>
 </project>
