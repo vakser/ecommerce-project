@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Increment and decrement buttons added to Angular cart details component HTML.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Click handler for the increment button of Angular cart details component added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +139,8 @@
       <workItem from="1692716222849" duration="193000" />
       <workItem from="1692760266389" duration="5399000" />
       <workItem from="1692774478381" duration="1139000" />
-      <workItem from="1692778095571" duration="1124000" />
+      <workItem from="1692778095571" duration="1714000" />
+      <workItem from="1692788712603" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -180,14 +183,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Product list component enhanced to read category id param">
-      <option name="closed" value="true" />
-      <created>1692338503077</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1692338503077</updated>
     </task>
     <task id="LOCAL-00014" summary="Spring Boot app functionality for searching for products by category added">
       <option name="closed" value="true" />
@@ -525,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692778831646</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Click handler for the increment button of Angular cart details component added.">
+      <option name="closed" value="true" />
+      <created>1692779330854</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1692779330854</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ng-bootstrap installed and imported to Angular app module" />
     <MESSAGE value="Interface GetResponseProducts refactored and pagination support added to Angular product service." />
     <MESSAGE value="Angular product list component updated to handle pagination." />
     <MESSAGE value="HTML template enhanced to use ng-bootstrap pagination component" />
@@ -568,6 +570,7 @@
     <MESSAGE value="Code to display cart totals in Angular cart details component HTML added." />
     <MESSAGE value="Angular cart details component updated to display a message if there are no products in the cart." />
     <MESSAGE value="Increment and decrement buttons added to Angular cart details component HTML." />
-    <option name="LAST_COMMIT_MESSAGE" value="Increment and decrement buttons added to Angular cart details component HTML." />
+    <MESSAGE value="Click handler for the increment button of Angular cart details component added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Click handler for the increment button of Angular cart details component added." />
   </component>
 </project>
