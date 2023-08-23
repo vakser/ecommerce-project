@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Table added to Angular cart details component template.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular cart details component modified to retrieve cart items.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +135,7 @@
       <workItem from="1692697629140" duration="7633000" />
       <workItem from="1692714279880" duration="1741000" />
       <workItem from="1692716222849" duration="193000" />
-      <workItem from="1692760266389" duration="1883000" />
+      <workItem from="1692760266389" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -178,14 +178,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Advanced functionality and styling of the home page added.">
-      <option name="closed" value="true" />
-      <created>1692253691429</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1692253691429</updated>
     </task>
     <task id="LOCAL-00009" summary="Support for Product list grid added">
       <option name="closed" value="true" />
@@ -523,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692761640737</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Angular cart details component modified to retrieve cart items.">
+      <option name="closed" value="true" />
+      <created>1692762391456</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1692762391456</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular product class updated, new component for product details created, new Angular route for product details added" />
     <MESSAGE value="Router links added to the product-list-grid html page." />
     <MESSAGE value="Angular product details component enhanced to retrieve product from product service" />
     <MESSAGE value="Angular product service updated to call URL on Spring Boot app" />
@@ -566,6 +565,7 @@
     <MESSAGE value="Functionality of adding products to the cart implemented in Angular product details component" />
     <MESSAGE value="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated." />
     <MESSAGE value="Table added to Angular cart details component template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Table added to Angular cart details component template." />
+    <MESSAGE value="Angular cart details component modified to retrieve cart items." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular cart details component modified to retrieve cart items." />
   </component>
 </project>
