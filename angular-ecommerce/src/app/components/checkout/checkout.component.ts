@@ -7,7 +7,7 @@ import {FormBuilder, FormGroup} from "@angular/forms";
   styleUrls: ['./checkout.component.css']
 })
 export class CheckoutComponent implements OnInit {
-  checkoutFormGroup: FormGroup | undefined;
+  checkoutFormGroup!: FormGroup;
 
   constructor(private formBuilder: FormBuilder) { }
 
@@ -19,6 +19,12 @@ export class CheckoutComponent implements OnInit {
         email: ['']
       })
     });
+  }
+
+  onSubmit() {
+    console.log("Handling the submit button");
+    console.log(this.checkoutFormGroup.get('customer')?.value);
+    console.log("The email address is " + this.checkoutFormGroup.get('customer')?.value.email);
   }
 
 }
