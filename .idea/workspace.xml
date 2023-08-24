@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Remove button of Angular cart details component and click handler for this button added.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="New Angular project component checkout generated, new route for checkout component added, checkout button and link to checkout component created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <workItem from="1692774478381" duration="1139000" />
       <workItem from="1692778095571" duration="1714000" />
       <workItem from="1692788712603" duration="3656000" />
-      <workItem from="1692851045661" duration="941000" />
+      <workItem from="1692851045661" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -187,14 +183,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Backend REST API modified to expose entities ids">
-      <option name="closed" value="true" />
-      <created>1692420506269</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1692420506269</updated>
     </task>
     <task id="LOCAL-00017" summary="Product category class and product category menu component created in Angular app">
       <option name="closed" value="true" />
@@ -532,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692792919533</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="New Angular project component checkout generated, new route for checkout component added, checkout button and link to checkout component created.">
+      <option name="closed" value="true" />
+      <created>1692852135071</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1692852135072</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTML template enhanced to use ng-bootstrap pagination component" />
     <MESSAGE value="Drop-down list for page-size added to HTML template" />
     <MESSAGE value="Change page-size functionality added to Angular product list component" />
     <MESSAGE value="Max size set and boundary links added for Angular project pagination" />
@@ -575,6 +570,7 @@
     <MESSAGE value="Click handler for the increment button of Angular cart details component added." />
     <MESSAGE value="Click handler for the decrement button of Angular cart details component added." />
     <MESSAGE value="Remove button of Angular cart details component and click handler for this button added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove button of Angular cart details component and click handler for this button added." />
+    <MESSAGE value="New Angular project component checkout generated, new route for checkout component added, checkout button and link to checkout component created." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Angular project component checkout generated, new route for checkout component added, checkout button and link to checkout component created." />
   </component>
 </project>
