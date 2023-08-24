@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Click handler for the decrement button of Angular cart details component added.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Remove button of Angular cart details component and click handler for this button added.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/cart-details/cart-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +143,8 @@
       <workItem from="1692760266389" duration="5399000" />
       <workItem from="1692774478381" duration="1139000" />
       <workItem from="1692778095571" duration="1714000" />
-      <workItem from="1692788712603" duration="3467000" />
+      <workItem from="1692788712603" duration="3656000" />
+      <workItem from="1692851045661" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -183,14 +187,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Angular app search for products by category updated">
-      <option name="closed" value="true" />
-      <created>1692339881734</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1692339881734</updated>
     </task>
     <task id="LOCAL-00016" summary="Backend REST API modified to expose entities ids">
       <option name="closed" value="true" />
@@ -528,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692789563136</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Remove button of Angular cart details component and click handler for this button added.">
+      <option name="closed" value="true" />
+      <created>1692792919533</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1692792919533</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular product list component updated to handle pagination." />
     <MESSAGE value="HTML template enhanced to use ng-bootstrap pagination component" />
     <MESSAGE value="Drop-down list for page-size added to HTML template" />
     <MESSAGE value="Change page-size functionality added to Angular product list component" />
@@ -571,6 +574,7 @@
     <MESSAGE value="Increment and decrement buttons added to Angular cart details component HTML." />
     <MESSAGE value="Click handler for the increment button of Angular cart details component added." />
     <MESSAGE value="Click handler for the decrement button of Angular cart details component added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Click handler for the decrement button of Angular cart details component added." />
+    <MESSAGE value="Remove button of Angular cart details component and click handler for this button added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove button of Angular cart details component and click handler for this button added." />
   </component>
 </project>
