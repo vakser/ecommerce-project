@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular checkout component updated to show months dependent on the year chosen.">
-      <change afterPath="$PROJECT_DIR$/db-scripts/countries-and-states.sql" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component.">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +48,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project/db-scripts",
@@ -144,7 +154,7 @@
       <workItem from="1692858531573" duration="2858000" />
       <workItem from="1692865537505" duration="3310000" />
       <workItem from="1692895299058" duration="2971000" />
-      <workItem from="1692936743197" duration="1747000" />
+      <workItem from="1692936743197" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -187,14 +197,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Angular product class updated, new component for product details created, new Angular route for product details added">
-      <option name="closed" value="true" />
-      <created>1692505060034</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1692505060034</updated>
     </task>
     <task id="LOCAL-00027" summary="Router links added to the product-list-grid html page.">
       <option name="closed" value="true" />
@@ -532,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692937820811</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component.">
+      <option name="closed" value="true" />
+      <created>1692941177500</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1692941177500</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Compute cart totals functionality added to cart service." />
     <MESSAGE value="Angular product list component modified to call cart service." />
     <MESSAGE value="Angular cart status component enhanced to subscribe to cart service, cart status component HTML updated to display cart total price and quantity." />
     <MESSAGE value="Angular project cart service refactored." />
@@ -575,6 +584,7 @@
     <MESSAGE value="Checkout component updated to retrieve the months and years from service." />
     <MESSAGE value="Checkout component HTML updated to populate drop-down lists for months and years." />
     <MESSAGE value="Angular checkout component updated to show months dependent on the year chosen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular checkout component updated to show months dependent on the year chosen." />
+    <MESSAGE value="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component." />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component." />
   </component>
 </project>
