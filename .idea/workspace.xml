@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Methods for changing entities in DB disabled.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project classes for country and state created, URLs for classes and states added to shop form service.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" afterDir="false" />
     </list>
@@ -156,7 +156,7 @@
       <workItem from="1692936743197" duration="4165000" />
       <workItem from="1692944617376" duration="678000" />
       <workItem from="1692958288670" duration="1486000" />
-      <workItem from="1692976197632" duration="629000" />
+      <workItem from="1692976197632" duration="1955000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -199,14 +199,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00031" summary="ng-bootstrap installed and imported to Angular app module">
-      <option name="closed" value="true" />
-      <created>1692546950406</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1692546950406</updated>
     </task>
     <task id="LOCAL-00032" summary="Interface GetResponseProducts refactored and pagination support added to Angular product service.">
       <option name="closed" value="true" />
@@ -544,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692959150363</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Angular project classes for country and state created, URLs for classes and states added to shop form service.">
+      <option name="closed" value="true" />
+      <created>1692977102392</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1692977102393</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated." />
     <MESSAGE value="Table added to Angular cart details component template." />
     <MESSAGE value="Angular cart details component modified to retrieve cart items." />
     <MESSAGE value="Code to loop over cart items in Angular cart details component HTML added." />
@@ -587,6 +586,7 @@
     <MESSAGE value="Country Spring Data REST repository created." />
     <MESSAGE value="State Spring Data REST repository created." />
     <MESSAGE value="Methods for changing entities in DB disabled." />
-    <option name="LAST_COMMIT_MESSAGE" value="Methods for changing entities in DB disabled." />
+    <MESSAGE value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
   </component>
 </project>
