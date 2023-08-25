@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout component updated to retrieve the months and years from service.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout component HTML updated to populate drop-down lists for months and years.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,8 @@
       <workItem from="1692854261142" duration="1417000" />
       <workItem from="1692858531573" duration="2858000" />
       <workItem from="1692865537505" duration="3310000" />
-      <workItem from="1692895299058" duration="2610000" />
+      <workItem from="1692895299058" duration="2971000" />
+      <workItem from="1692936743197" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -186,14 +188,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Angular product service updated to call URL on Spring Boot app">
-      <option name="closed" value="true" />
-      <created>1692460313844</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1692460313844</updated>
     </task>
     <task id="LOCAL-00025" summary="Functionality of displaying a message in case of no products are found added">
       <option name="closed" value="true" />
@@ -531,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692897519237</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Checkout component HTML updated to populate drop-down lists for months and years.">
+      <option name="closed" value="true" />
+      <created>1692898180535</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1692898180535</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Model class cartItem created." />
     <MESSAGE value="Cart service developed for Angular project." />
     <MESSAGE value="Compute cart totals functionality added to cart service." />
     <MESSAGE value="Angular product list component modified to call cart service." />
@@ -574,6 +575,7 @@
     <MESSAGE value="Angular project checkout form layout credit card." />
     <MESSAGE value="Angular shop form service created, method for the credit card months and years added to the service." />
     <MESSAGE value="Checkout component updated to retrieve the months and years from service." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout component updated to retrieve the months and years from service." />
+    <MESSAGE value="Checkout component HTML updated to populate drop-down lists for months and years." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout component HTML updated to populate drop-down lists for months and years." />
   </component>
 </project>
