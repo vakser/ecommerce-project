@@ -118,8 +118,12 @@ export class CheckoutComponent implements OnInit {
     this.shopFormService.getStates(countryCode).subscribe(
       data => {
         if (formGroupName === 'shippingAddress') {
-
+          this.shippingAddressStates = data;
+        } else {
+          this.billingAddressStates = data;
         }
+        // select first item by default
+        formGroup!.get('state')!.setValue(data[0]);
       }
     );
   }

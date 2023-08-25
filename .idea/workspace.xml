@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Event handler for checkout component added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
@@ -157,7 +157,7 @@
       <workItem from="1692936743197" duration="4165000" />
       <workItem from="1692944617376" duration="678000" />
       <workItem from="1692958288670" duration="1486000" />
-      <workItem from="1692976197632" duration="4737000" />
+      <workItem from="1692976197632" duration="6144000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -200,14 +200,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00034" summary="HTML template enhanced to use ng-bootstrap pagination component">
-      <option name="closed" value="true" />
-      <created>1692597865593</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1692597865593</updated>
     </task>
     <task id="LOCAL-00035" summary="Drop-down list for page-size added to HTML template">
       <option name="closed" value="true" />
@@ -545,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692979741835</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Event handler for checkout component added.">
+      <option name="closed" value="true" />
+      <created>1692983427292</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1692983427292</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code to loop over cart items in Angular cart details component HTML added." />
     <MESSAGE value="Code to display cart totals in Angular cart details component HTML added." />
     <MESSAGE value="Angular cart details component updated to display a message if there are no products in the cart." />
     <MESSAGE value="Increment and decrement buttons added to Angular cart details component HTML." />
@@ -588,6 +587,7 @@
     <MESSAGE value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
     <MESSAGE value="Methods for getting countries and states added to Angular shop form service." />
     <MESSAGE value="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries." />
+    <MESSAGE value="Event handler for checkout component added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Event handler for checkout component added." />
   </component>
 </project>
