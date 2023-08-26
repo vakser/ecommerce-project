@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Custom validator rule defined, custom validator rule for the form controls specified.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout form custom validator rule applied to display error messages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,7 @@
       <workItem from="1692976197632" duration="7697000" />
       <workItem from="1693024577204" duration="6740000" />
       <workItem from="1693034914270" duration="1755000" />
-      <workItem from="1693064207128" duration="744000" />
+      <workItem from="1693064207128" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -203,14 +202,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Cart service developed for Angular project.">
-      <option name="closed" value="true" />
-      <created>1692700577235</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1692700577236</updated>
     </task>
     <task id="LOCAL-00044" summary="Compute cart totals functionality added to cart service.">
       <option name="closed" value="true" />
@@ -548,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693036042817</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Angular project checkout form custom validator rule applied to display error messages.">
+      <option name="closed" value="true" />
+      <created>1693065177133</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1693065177133</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Support for reactive forms added, form defined in component file." />
     <MESSAGE value="Event handler for customer form submission added." />
     <MESSAGE value="Angular project checkout form layout shipping address." />
     <MESSAGE value="Angular project checkout form layout billing address." />
@@ -591,6 +589,7 @@
     <MESSAGE value="Getter methods to access form controls defined, HTML template updated to display error messages." />
     <MESSAGE value="HTML template updated to display error messages." />
     <MESSAGE value="Custom validator rule defined, custom validator rule for the form controls specified." />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom validator rule defined, custom validator rule for the form controls specified." />
+    <MESSAGE value="Angular project checkout form custom validator rule applied to display error messages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout form custom validator rule applied to display error messages." />
   </component>
 </project>
