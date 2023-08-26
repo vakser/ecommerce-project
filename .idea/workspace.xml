@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout form populate countries and states console logs added.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Bug for states in billing address fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
@@ -156,7 +156,8 @@
       <workItem from="1692936743197" duration="4165000" />
       <workItem from="1692944617376" duration="678000" />
       <workItem from="1692958288670" duration="1486000" />
-      <workItem from="1692976197632" duration="7623000" />
+      <workItem from="1692976197632" duration="7697000" />
+      <workItem from="1693024577204" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -199,14 +200,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Max size set and boundary links added for Angular project pagination">
-      <option name="closed" value="true" />
-      <created>1692605404858</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1692605404858</updated>
     </task>
     <task id="LOCAL-00038" summary="Angular product service updated, support for product search pagination added">
       <option name="closed" value="true" />
@@ -544,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692985543702</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Bug for states in billing address fixed.">
+      <option name="closed" value="true" />
+      <created>1692986136430</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1692986136430</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Increment and decrement buttons added to Angular cart details component HTML." />
     <MESSAGE value="Click handler for the increment button of Angular cart details component added." />
     <MESSAGE value="Click handler for the decrement button of Angular cart details component added." />
     <MESSAGE value="Remove button of Angular cart details component and click handler for this button added." />
@@ -587,6 +587,7 @@
     <MESSAGE value="Event handler for checkout component added." />
     <MESSAGE value="Angular project checkout form populated with countries and states." />
     <MESSAGE value="Angular project checkout form populate countries and states console logs added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout form populate countries and states console logs added." />
+    <MESSAGE value="Bug for states in billing address fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug for states in billing address fixed." />
   </component>
 </project>
