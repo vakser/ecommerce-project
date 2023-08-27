@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout component updated to display error message for country in shipping address.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,8 @@
       <workItem from="1693024577204" duration="6740000" />
       <workItem from="1693034914270" duration="1755000" />
       <workItem from="1693064207128" duration="1919000" />
-      <workItem from="1693122950524" duration="3385000" />
+      <workItem from="1693122950524" duration="3727000" />
+      <workItem from="1693157213132" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -203,14 +205,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Angular cart status component enhanced to subscribe to cart service, cart status component HTML updated to display cart total price and quantity.">
-      <option name="closed" value="true" />
-      <created>1692706218631</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1692706218631</updated>
     </task>
     <task id="LOCAL-00047" summary="Angular project cart service refactored.">
       <option name="closed" value="true" />
@@ -548,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693125566319</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address.">
+      <option name="closed" value="true" />
+      <created>1693126669031</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1693126669031</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular project checkout form layout billing address." />
     <MESSAGE value="Angular project checkout form layout credit card." />
     <MESSAGE value="Angular shop form service created, method for the credit card months and years added to the service." />
     <MESSAGE value="Checkout component updated to retrieve the months and years from service." />
@@ -591,6 +592,7 @@
     <MESSAGE value="Angular project checkout form custom validator rule applied to display error messages." />
     <MESSAGE value="Angular project checkout form custom validator rules and getters created for shipping address." />
     <MESSAGE value="Angular project checkout component updated to display error message for country in shipping address." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout component updated to display error message for country in shipping address." />
+    <MESSAGE value="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address." />
   </component>
 </project>
