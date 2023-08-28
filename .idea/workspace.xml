@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Customer.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Address and customer entities added to Spring Boot project.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/OrderItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,7 @@
       <workItem from="1693157213132" duration="2132000" />
       <workItem from="1693200836499" duration="1974000" />
       <workItem from="1693209267298" duration="2686000" />
-      <workItem from="1693212285002" duration="669000" />
+      <workItem from="1693212285002" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -208,14 +208,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Angular cart details component modified to retrieve cart items.">
-      <option name="closed" value="true" />
-      <created>1692762391456</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1692762391456</updated>
     </task>
     <task id="LOCAL-00052" summary="Code to loop over cart items in Angular cart details component HTML added.">
       <option name="closed" value="true" />
@@ -553,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693211944355</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Address and customer entities added to Spring Boot project.">
+      <option name="closed" value="true" />
+      <created>1693213037354</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1693213037356</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular checkout component updated to show months dependent on the year chosen." />
     <MESSAGE value="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component." />
     <MESSAGE value="JPA entities for country and state created." />
     <MESSAGE value="Country Spring Data REST repository created." />
@@ -596,6 +595,7 @@
     <MESSAGE value="Angular project checkout component updated to display error messages for credit card." />
     <MESSAGE value="Angular project checkout component and cart service updated to provide correct information in review your order field." />
     <MESSAGE value="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database." />
+    <MESSAGE value="Address and customer entities added to Spring Boot project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Address and customer entities added to Spring Boot project." />
   </component>
 </project>
