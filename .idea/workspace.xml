@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout component and cart service updated to provide correct information in review your order field.">
-      <change afterPath="$PROJECT_DIR$/db-scripts/create-order-tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,7 +164,8 @@
       <workItem from="1693122950524" duration="3727000" />
       <workItem from="1693157213132" duration="2132000" />
       <workItem from="1693200836499" duration="1974000" />
-      <workItem from="1693209267298" duration="2537000" />
+      <workItem from="1693209267298" duration="2686000" />
+      <workItem from="1693212285002" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -207,14 +208,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Table added to Angular cart details component template.">
-      <option name="closed" value="true" />
-      <created>1692761640737</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1692761640737</updated>
     </task>
     <task id="LOCAL-00051" summary="Angular cart details component modified to retrieve cart items.">
       <option name="closed" value="true" />
@@ -552,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693210808679</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database.">
+      <option name="closed" value="true" />
+      <created>1693211944355</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211944355</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checkout component HTML updated to populate drop-down lists for months and years." />
     <MESSAGE value="Angular checkout component updated to show months dependent on the year chosen." />
     <MESSAGE value="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component." />
     <MESSAGE value="JPA entities for country and state created." />
@@ -595,6 +595,7 @@
     <MESSAGE value="Angular project checkout component updated to display error messages for billing address." />
     <MESSAGE value="Angular project checkout component updated to display error messages for credit card." />
     <MESSAGE value="Angular project checkout component and cart service updated to provide correct information in review your order field." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout component and cart service updated to provide correct information in review your order field." />
+    <MESSAGE value="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database." />
   </component>
 </project>
