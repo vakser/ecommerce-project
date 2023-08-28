@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout component updated to display error messages for billing address.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project checkout component updated to display error messages for credit card.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,8 @@
       <workItem from="1693064207128" duration="1919000" />
       <workItem from="1693122950524" duration="3727000" />
       <workItem from="1693157213132" duration="2132000" />
-      <workItem from="1693200836499" duration="1663000" />
+      <workItem from="1693200836499" duration="1974000" />
+      <workItem from="1693209267298" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -206,14 +207,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Functionality of adding products to the cart implemented in Angular product details component">
-      <option name="closed" value="true" />
-      <created>1692716378686</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1692716378686</updated>
     </task>
     <task id="LOCAL-00049" summary="Cart details component created in Angular app, new route for this component added to app modules, link for shopping cart icon updated.">
       <option name="closed" value="true" />
@@ -551,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693159333993</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Angular project checkout component updated to display error messages for credit card.">
+      <option name="closed" value="true" />
+      <created>1693202801050</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1693202801050</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular shop form service created, method for the credit card months and years added to the service." />
     <MESSAGE value="Checkout component updated to retrieve the months and years from service." />
     <MESSAGE value="Checkout component HTML updated to populate drop-down lists for months and years." />
     <MESSAGE value="Angular checkout component updated to show months dependent on the year chosen." />
@@ -594,6 +594,7 @@
     <MESSAGE value="Angular project checkout component updated to display error message for country in shipping address." />
     <MESSAGE value="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address." />
     <MESSAGE value="Angular project checkout component updated to display error messages for billing address." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout component updated to display error messages for billing address." />
+    <MESSAGE value="Angular project checkout component updated to display error messages for credit card." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular project checkout component updated to display error messages for credit card." />
   </component>
 </project>
