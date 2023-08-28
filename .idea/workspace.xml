@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order and order item entities updated, relationship added.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="All other relationships added to the entities.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/Purchase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/entity/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,8 @@
       <workItem from="1693200836499" duration="1974000" />
       <workItem from="1693209267298" duration="2686000" />
       <workItem from="1693212285002" duration="1655000" />
-      <workItem from="1693222810879" duration="1776000" />
+      <workItem from="1693222810879" duration="2145000" />
+      <workItem from="1693244229700" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -210,14 +209,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Angular cart details component updated to display a message if there are no products in the cart.">
-      <option name="closed" value="true" />
-      <created>1692775376964</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1692775376964</updated>
     </task>
     <task id="LOCAL-00055" summary="Increment and decrement buttons added to Angular cart details component HTML.">
       <option name="closed" value="true" />
@@ -555,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693223861173</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="All other relationships added to the entities.">
+      <option name="closed" value="true" />
+      <created>1693224906242</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1693224906242</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Country Spring Data REST repository created." />
     <MESSAGE value="State Spring Data REST repository created." />
     <MESSAGE value="Methods for changing entities in DB disabled." />
     <MESSAGE value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
@@ -598,6 +596,7 @@
     <MESSAGE value="Address and customer entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities updated, relationship added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Order and order item entities updated, relationship added." />
+    <MESSAGE value="All other relationships added to the entities." />
+    <option name="LAST_COMMIT_MESSAGE" value="All other relationships added to the entities." />
   </component>
 </project>
