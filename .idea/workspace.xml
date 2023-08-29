@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="All other relationships added to the entities.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/Purchase.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Purchase and purchase response data transfer objects created.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +168,8 @@
       <workItem from="1693209267298" duration="2686000" />
       <workItem from="1693212285002" duration="1655000" />
       <workItem from="1693222810879" duration="2145000" />
-      <workItem from="1693244229700" duration="556000" />
+      <workItem from="1693244229700" duration="909000" />
+      <workItem from="1693281880257" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -209,14 +212,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Increment and decrement buttons added to Angular cart details component HTML.">
-      <option name="closed" value="true" />
-      <created>1692778831645</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1692778831646</updated>
     </task>
     <task id="LOCAL-00056" summary="Click handler for the increment button of Angular cart details component added.">
       <option name="closed" value="true" />
@@ -554,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693224906242</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Purchase and purchase response data transfer objects created.">
+      <option name="closed" value="true" />
+      <created>1693245128574</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1693245128574</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="State Spring Data REST repository created." />
     <MESSAGE value="Methods for changing entities in DB disabled." />
     <MESSAGE value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
     <MESSAGE value="Methods for getting countries and states added to Angular shop form service." />
@@ -597,6 +599,7 @@
     <MESSAGE value="Order and order item entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities updated, relationship added." />
     <MESSAGE value="All other relationships added to the entities." />
-    <option name="LAST_COMMIT_MESSAGE" value="All other relationships added to the entities." />
+    <MESSAGE value="Purchase and purchase response data transfer objects created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Purchase and purchase response data transfer objects created." />
   </component>
 </project>
