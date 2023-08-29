@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Classes address, customer, order, order item, purchase created in Angular project.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout service created in Angular project to make REST API call to Spring Boot backend.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,7 @@
       <workItem from="1693244229700" duration="909000" />
       <workItem from="1693281880257" duration="2280000" />
       <workItem from="1693285999893" duration="1335000" />
-      <workItem from="1693320786117" duration="1914000" />
+      <workItem from="1693320786117" duration="5925000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -217,14 +217,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Support for reactive forms added, form defined in component file.">
-      <option name="closed" value="true" />
-      <created>1692852960822</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1692852960822</updated>
     </task>
     <task id="LOCAL-00061" summary="Event handler for customer form submission added.">
       <option name="closed" value="true" />
@@ -562,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693321753627</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Checkout service created in Angular project to make REST API call to Spring Boot backend.">
+      <option name="closed" value="true" />
+      <created>1693324160929</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1693324160929</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Event handler for checkout component added." />
     <MESSAGE value="Angular project checkout form populated with countries and states." />
     <MESSAGE value="Angular project checkout form populate countries and states console logs added." />
     <MESSAGE value="Bug for states in billing address fixed." />
@@ -606,6 +605,7 @@
     <MESSAGE value="Checkout service placeOrder method implemented for saving the order to database." />
     <MESSAGE value="Checkout controller added to Spring Boot project." />
     <MESSAGE value="Classes address, customer, order, order item, purchase created in Angular project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes address, customer, order, order item, purchase created in Angular project." />
+    <MESSAGE value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
   </component>
 </project>
