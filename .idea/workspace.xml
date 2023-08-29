@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout service placeOrder method implemented for saving the order to database.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout controller added to Spring Boot project.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/address.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/purchase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +86,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -168,7 +177,8 @@
       <workItem from="1693222810879" duration="2145000" />
       <workItem from="1693244229700" duration="909000" />
       <workItem from="1693281880257" duration="2280000" />
-      <workItem from="1693285999893" duration="647000" />
+      <workItem from="1693285999893" duration="1335000" />
+      <workItem from="1693320786117" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -211,14 +221,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Remove button of Angular cart details component and click handler for this button added.">
-      <option name="closed" value="true" />
-      <created>1692792919533</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1692792919533</updated>
     </task>
     <task id="LOCAL-00059" summary="New Angular project component checkout generated, new route for checkout component added, checkout button and link to checkout component created.">
       <option name="closed" value="true" />
@@ -556,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693284144345</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Checkout controller added to Spring Boot project.">
+      <option name="closed" value="true" />
+      <created>1693286684948</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1693286684948</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Methods for getting countries and states added to Angular shop form service." />
     <MESSAGE value="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries." />
     <MESSAGE value="Event handler for checkout component added." />
     <MESSAGE value="Angular project checkout form populated with countries and states." />
@@ -599,6 +608,7 @@
     <MESSAGE value="Purchase and purchase response data transfer objects created." />
     <MESSAGE value="Customer repository, checkout service and its implementation created in Sping Boot project." />
     <MESSAGE value="Checkout service placeOrder method implemented for saving the order to database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout service placeOrder method implemented for saving the order to database." />
+    <MESSAGE value="Checkout controller added to Spring Boot project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout controller added to Spring Boot project." />
   </component>
 </project>
