@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Customer repository, checkout service and its implementation created in Sping Boot project.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout service placeOrder method implemented for saving the order to database.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PurchaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,8 @@
       <workItem from="1693212285002" duration="1655000" />
       <workItem from="1693222810879" duration="2145000" />
       <workItem from="1693244229700" duration="909000" />
-      <workItem from="1693281880257" duration="2219000" />
+      <workItem from="1693281880257" duration="2280000" />
+      <workItem from="1693285999893" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -211,14 +211,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Click handler for the decrement button of Angular cart details component added.">
-      <option name="closed" value="true" />
-      <created>1692789563134</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1692789563136</updated>
     </task>
     <task id="LOCAL-00058" summary="Remove button of Angular cart details component and click handler for this button added.">
       <option name="closed" value="true" />
@@ -556,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693282551039</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Checkout service placeOrder method implemented for saving the order to database.">
+      <option name="closed" value="true" />
+      <created>1693284144345</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1693284144345</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular project classes for country and state created, URLs for classes and states added to shop form service." />
     <MESSAGE value="Methods for getting countries and states added to Angular shop form service." />
     <MESSAGE value="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries." />
     <MESSAGE value="Event handler for checkout component added." />
@@ -599,6 +598,7 @@
     <MESSAGE value="All other relationships added to the entities." />
     <MESSAGE value="Purchase and purchase response data transfer objects created." />
     <MESSAGE value="Customer repository, checkout service and its implementation created in Sping Boot project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer repository, checkout service and its implementation created in Sping Boot project." />
+    <MESSAGE value="Checkout service placeOrder method implemented for saving the order to database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout service placeOrder method implemented for saving the order to database." />
   </component>
 </project>
