@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Configuration for OpenID Connect set up.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/okta-signin-widget.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +180,8 @@
       <workItem from="1693285999893" duration="1335000" />
       <workItem from="1693320786117" duration="7277000" />
       <workItem from="1693379782822" duration="7000" />
-      <workItem from="1693387197272" duration="2971000" />
+      <workItem from="1693387197272" duration="3073000" />
+      <workItem from="1693400713092" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -220,14 +224,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Angular project checkout form layout billing address.">
-      <option name="closed" value="true" />
-      <created>1692867352347</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1692867352348</updated>
     </task>
     <task id="LOCAL-00064" summary="Angular project checkout form layout credit card.">
       <option name="closed" value="true" />
@@ -565,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693388239577</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated.">
+      <option name="closed" value="true" />
+      <created>1693392151818</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1693392151818</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Bug for states in billing address fixed." />
     <MESSAGE value="Angular project checkout form validation rules added." />
     <MESSAGE value="Getter methods to access form controls defined, HTML template updated to display error messages." />
     <MESSAGE value="HTML template updated to display error messages." />
@@ -609,6 +612,7 @@
     <MESSAGE value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Checkout component updated in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Configuration for OpenID Connect set up." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration for OpenID Connect set up." />
+    <MESSAGE value="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated." />
   </component>
 </project>
