@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="ngOnInit method implemented in login component of Angular project.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Login status component created in Angular project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,7 @@
       <workItem from="1693379782822" duration="7000" />
       <workItem from="1693387197272" duration="3073000" />
       <workItem from="1693400713092" duration="1504000" />
-      <workItem from="1693415594143" duration="1917000" />
+      <workItem from="1693415594143" duration="3188000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -224,14 +221,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Checkout component updated to retrieve the months and years from service.">
-      <option name="closed" value="true" />
-      <created>1692897519237</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1692897519237</updated>
     </task>
     <task id="LOCAL-00067" summary="Checkout component HTML updated to populate drop-down lists for months and years.">
       <option name="closed" value="true" />
@@ -569,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693416326132</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Login status component created in Angular project.">
+      <option name="closed" value="true" />
+      <created>1693417572127</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1693417572127</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HTML template updated to display error messages." />
     <MESSAGE value="Custom validator rule defined, custom validator rule for the form controls specified." />
     <MESSAGE value="Angular project checkout form custom validator rule applied to display error messages." />
     <MESSAGE value="Angular project checkout form custom validator rules and getters created for shipping address." />
@@ -613,6 +609,7 @@
     <MESSAGE value="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated." />
     <MESSAGE value="Login component generated in Angular project." />
     <MESSAGE value="ngOnInit method implemented in login component of Angular project." />
-    <option name="LAST_COMMIT_MESSAGE" value="ngOnInit method implemented in login component of Angular project." />
+    <MESSAGE value="Login status component created in Angular project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login status component created in Angular project." />
   </component>
 </project>
