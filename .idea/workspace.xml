@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout component updated in Angular project to make REST API call to Spring Boot backend.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/config/my-app-config.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Configuration for OpenID Connect set up.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,7 @@
       <workItem from="1693285999893" duration="1335000" />
       <workItem from="1693320786117" duration="7277000" />
       <workItem from="1693379782822" duration="7000" />
-      <workItem from="1693387197272" duration="807000" />
+      <workItem from="1693387197272" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -219,14 +220,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Angular project checkout form layout shipping address.">
-      <option name="closed" value="true" />
-      <created>1692861385985</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1692861385985</updated>
     </task>
     <task id="LOCAL-00063" summary="Angular project checkout form layout billing address.">
       <option name="closed" value="true" />
@@ -564,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693328344940</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Configuration for OpenID Connect set up.">
+      <option name="closed" value="true" />
+      <created>1693388239577</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1693388239577</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +584,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Angular project checkout form populate countries and states console logs added." />
     <MESSAGE value="Bug for states in billing address fixed." />
     <MESSAGE value="Angular project checkout form validation rules added." />
     <MESSAGE value="Getter methods to access form controls defined, HTML template updated to display error messages." />
@@ -608,6 +608,7 @@
     <MESSAGE value="Classes address, customer, order, order item, purchase created in Angular project." />
     <MESSAGE value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Checkout component updated in Angular project to make REST API call to Spring Boot backend." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout component updated in Angular project to make REST API call to Spring Boot backend." />
+    <MESSAGE value="Configuration for OpenID Connect set up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration for OpenID Connect set up." />
   </component>
 </project>
