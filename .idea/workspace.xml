@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Login status component html and css in Angular project updated.">
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.css" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Login status component css in Angular project updated, component added to app component html.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,8 @@
       <workItem from="1693379782822" duration="7000" />
       <workItem from="1693387197272" duration="3073000" />
       <workItem from="1693400713092" duration="1504000" />
-      <workItem from="1693415594143" duration="3554000" />
+      <workItem from="1693415594143" duration="3899000" />
+      <workItem from="1693454332107" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -219,14 +221,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Angular checkout component updated to show months dependent on the year chosen.">
-      <option name="closed" value="true" />
-      <created>1692937820810</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1692937820811</updated>
     </task>
     <task id="LOCAL-00069" summary="SQL script for creation countries and states tables in database added to populate corresponding dropdown lists of Angular checkout component.">
       <option name="closed" value="true" />
@@ -564,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693418846361</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Login status component css in Angular project updated, component added to app component html.">
+      <option name="closed" value="true" />
+      <created>1693419490191</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1693419490191</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Angular project checkout form custom validator rule applied to display error messages." />
     <MESSAGE value="Angular project checkout form custom validator rules and getters created for shipping address." />
     <MESSAGE value="Angular project checkout component updated to display error message for country in shipping address." />
     <MESSAGE value="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address." />
@@ -608,6 +609,7 @@
     <MESSAGE value="ngOnInit method implemented in login component of Angular project." />
     <MESSAGE value="Login status component created in Angular project." />
     <MESSAGE value="Login status component html and css in Angular project updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Login status component html and css in Angular project updated." />
+    <MESSAGE value="Login status component css in Angular project updated, component added to app component html." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login status component css in Angular project updated, component added to app component html." />
   </component>
 </project>
