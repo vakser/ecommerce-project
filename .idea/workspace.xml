@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular project cart service updated to read data from session storage.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Angular cart service modified to use local storage for cart data persistence.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/cart.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,11 @@
       <workItem from="1693454332107" duration="2054000" />
       <workItem from="1693459173666" duration="1681000" />
       <workItem from="1693461839804" duration="1995000" />
-      <workItem from="1693468267324" duration="1352000" />
+      <workItem from="1693468267324" duration="2036000" />
+      <workItem from="1693494043247" duration="4000" />
+      <workItem from="1693494097411" duration="2000" />
+      <workItem from="1693494218536" duration="12000" />
+      <workItem from="1693494388221" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -224,14 +229,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Angular project classes for country and state created, URLs for classes and states added to shop form service.">
-      <option name="closed" value="true" />
-      <created>1692977102392</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1692977102393</updated>
     </task>
     <task id="LOCAL-00075" summary="Methods for getting countries and states added to Angular shop form service.">
       <option name="closed" value="true" />
@@ -569,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693468935408</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Angular cart service modified to use local storage for cart data persistence.">
+      <option name="closed" value="true" />
+      <created>1693469981290</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1693469981290</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Angular project checkout component and cart service updated to provide correct information in review your order field." />
     <MESSAGE value="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database." />
     <MESSAGE value="Address and customer entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities added to Spring Boot project." />
@@ -613,6 +617,7 @@
     <MESSAGE value="Members page component added to Angular project." />
     <MESSAGE value="&quot;Member&quot; button added to login-status component, protected route defined for members-page component." />
     <MESSAGE value="Angular project cart service updated to read data from session storage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular project cart service updated to read data from session storage." />
+    <MESSAGE value="Angular cart service modified to use local storage for cart data persistence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular cart service modified to use local storage for cart data persistence." />
   </component>
 </project>
