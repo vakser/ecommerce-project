@@ -9,7 +9,8 @@ export class CartService {
   cartItems: CartItem[] = [];
   totalPrice: Subject<number> = new BehaviorSubject<number>(0);
   totalQuantity: Subject<number> = new BehaviorSubject<number>(0);
-  storage: Storage = sessionStorage;
+  // storage: Storage = sessionStorage; // after browser is closed information about cart items is lost
+  storage: Storage = localStorage; // data is persisted and survives browser restarts
 
   constructor() {
     // read data from storage
@@ -54,6 +55,8 @@ export class CartService {
     this.totalQuantity.next(totalQuantityValue);
     // log cart data for debugging purposes
     this.logCartData(totalPriceValue, totalQuantityValue);
+    // persist cart data
+    this.persistCartItems();
   }
 
   persistCartItems() {
