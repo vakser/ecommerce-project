@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Spring Boot project configuration refactored.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/MyAppConfig.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Spring Boot project configuration for REST controller created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,8 @@
       <workItem from="1693494218536" duration="12000" />
       <workItem from="1693494388221" duration="622000" />
       <workItem from="1693540672992" duration="2467000" />
-      <workItem from="1693545522860" duration="675000" />
+      <workItem from="1693545522860" duration="751000" />
+      <workItem from="1693548272112" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -231,14 +232,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Angular project checkout form populated with countries and states.">
-      <option name="closed" value="true" />
-      <created>1692984703170</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1692984703170</updated>
     </task>
     <task id="LOCAL-00079" summary="Angular project checkout form populate countries and states console logs added.">
       <option name="closed" value="true" />
@@ -576,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693543327473</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Spring Boot project configuration for REST controller created.">
+      <option name="closed" value="true" />
+      <created>1693546253044</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1693546253044</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Order and order item entities updated, relationship added." />
     <MESSAGE value="All other relationships added to the entities." />
     <MESSAGE value="Purchase and purchase response data transfer objects created." />
     <MESSAGE value="Customer repository, checkout service and its implementation created in Sping Boot project." />
@@ -620,6 +620,7 @@
     <MESSAGE value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
     <MESSAGE value="Spring Boot project configuration and repositories updated." />
     <MESSAGE value="Spring Boot project configuration refactored." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot project configuration refactored." />
+    <MESSAGE value="Spring Boot project configuration for REST controller created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot project configuration for REST controller created." />
   </component>
 </project>
