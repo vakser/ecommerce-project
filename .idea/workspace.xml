@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Spring Boot project configuration and repositories updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -186,7 +187,7 @@
       <workItem from="1693494097411" duration="2000" />
       <workItem from="1693494218536" duration="12000" />
       <workItem from="1693494388221" duration="622000" />
-      <workItem from="1693540672992" duration="1577000" />
+      <workItem from="1693540672992" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -229,14 +230,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Angular checkout component updated to retrieve the countries from service and to populate drop-down lists for countries.">
-      <option name="closed" value="true" />
-      <created>1692979741835</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1692979741835</updated>
     </task>
     <task id="LOCAL-00077" summary="Event handler for checkout component added.">
       <option name="closed" value="true" />
@@ -574,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693494975606</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Spring Boot project configuration and repositories updated.">
+      <option name="closed" value="true" />
+      <created>1693542668022</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1693542668023</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +594,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Address and customer entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities added to Spring Boot project." />
     <MESSAGE value="Order and order item entities updated, relationship added." />
     <MESSAGE value="All other relationships added to the entities." />
@@ -618,6 +618,7 @@
     <MESSAGE value="Angular project cart service updated to read data from session storage." />
     <MESSAGE value="Angular cart service modified to use local storage for cart data persistence." />
     <MESSAGE value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
+    <MESSAGE value="Spring Boot project configuration and repositories updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot project configuration and repositories updated." />
   </component>
 </project>
