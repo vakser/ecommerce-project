@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-history.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/order-history.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,7 @@
       <workItem from="1693545522860" duration="751000" />
       <workItem from="1693548272112" duration="828000" />
       <workItem from="1693553246596" duration="1221000" />
-      <workItem from="1693648722457" duration="1079000" />
+      <workItem from="1693648722457" duration="2014000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -235,14 +234,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Angular project checkout form validation rules added.">
-      <option name="closed" value="true" />
-      <created>1693025382570</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1693025382570</updated>
     </task>
     <task id="LOCAL-00082" summary="Getter methods to access form controls defined, HTML template updated to display error messages.">
       <option name="closed" value="true" />
@@ -580,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693554445067</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created.">
+      <option name="closed" value="true" />
+      <created>1693649909830</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1693649909831</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +598,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Customer repository, checkout service and its implementation created in Sping Boot project." />
     <MESSAGE value="Checkout service placeOrder method implemented for saving the order to database." />
     <MESSAGE value="Checkout controller added to Spring Boot project." />
     <MESSAGE value="Classes address, customer, order, order item, purchase created in Angular project." />
@@ -624,6 +622,7 @@
     <MESSAGE value="Spring Boot project configuration for REST controller created." />
     <MESSAGE value="Spring Boot application properties updated." />
     <MESSAGE value="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only." />
-    <option name="LAST_COMMIT_MESSAGE" value="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only." />
+    <MESSAGE value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
   </component>
 </project>
