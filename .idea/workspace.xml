@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order history service developed in Angular project.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order history component generated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/order-history/order-history.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/order-history/order-history.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,8 @@
       <workItem from="1693545522860" duration="751000" />
       <workItem from="1693548272112" duration="828000" />
       <workItem from="1693553246596" duration="1221000" />
-      <workItem from="1693648722457" duration="2927000" />
+      <workItem from="1693648722457" duration="3587000" />
+      <workItem from="1693733679292" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -233,14 +234,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00083" summary="HTML template updated to display error messages.">
-      <option name="closed" value="true" />
-      <created>1693031933729</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1693031933729</updated>
     </task>
     <task id="LOCAL-00084" summary="Custom validator rule defined, custom validator rule for the form controls specified.">
       <option name="closed" value="true" />
@@ -578,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693650778961</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Order history component generated.">
+      <option name="closed" value="true" />
+      <created>1693651722554</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1693651722554</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +598,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Checkout controller added to Spring Boot project." />
     <MESSAGE value="Classes address, customer, order, order item, purchase created in Angular project." />
     <MESSAGE value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Checkout component updated in Angular project to make REST API call to Spring Boot backend." />
@@ -622,6 +622,7 @@
     <MESSAGE value="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only." />
     <MESSAGE value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
     <MESSAGE value="Order history service developed in Angular project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Order history service developed in Angular project." />
+    <MESSAGE value="Order history component generated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Order history component generated." />
   </component>
 </project>
