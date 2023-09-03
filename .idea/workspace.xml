@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout component of Angular project updated to prepopulate user's email address in the form at checkout time.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Okta Spring Boot Starter added to Maven pom.xml.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +193,7 @@
       <workItem from="1693648722457" duration="3587000" />
       <workItem from="1693733679292" duration="3070000" />
       <workItem from="1693737886845" duration="614000" />
-      <workItem from="1693764069997" duration="320000" />
+      <workItem from="1693764069997" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -236,14 +236,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Angular project checkout component updated to display error message for country in shipping address.">
-      <option name="closed" value="true" />
-      <created>1693125566319</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1693125566319</updated>
     </task>
     <task id="LOCAL-00089" summary="Angular project checkout component HTML updated to display error messages for rest of the fields in shipping address.">
       <option name="closed" value="true" />
@@ -581,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693738480025</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Okta Spring Boot Starter added to Maven pom.xml.">
+      <option name="closed" value="true" />
+      <created>1693764445378</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1693764445379</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +600,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Okta SDK dependencies for Angular project installed, Okta Sign-In Widget integrated." />
     <MESSAGE value="Login component generated in Angular project." />
     <MESSAGE value="ngOnInit method implemented in login component of Angular project." />
     <MESSAGE value="Login status component created in Angular project." />
@@ -625,6 +624,7 @@
     <MESSAGE value="Orders button added to login-status component of Angular app, protected route defined for order-history component, width of the search field changed in styles.css file." />
     <MESSAGE value="Order Repository in Spring Boot project and order-history service in Angular project updated to sort orders in descending order." />
     <MESSAGE value="Checkout component of Angular project updated to prepopulate user's email address in the form at checkout time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout component of Angular project updated to prepopulate user's email address in the form at checkout time." />
+    <MESSAGE value="Okta Spring Boot Starter added to Maven pom.xml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Okta Spring Boot Starter added to Maven pom.xml." />
   </component>
 </project>
