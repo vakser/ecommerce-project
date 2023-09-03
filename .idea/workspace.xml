@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order history component generated.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Order history component HTML updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/order-history/order-history.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/order-history/order-history.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/login-status/login-status.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -191,7 +193,7 @@
       <workItem from="1693548272112" duration="828000" />
       <workItem from="1693553246596" duration="1221000" />
       <workItem from="1693648722457" duration="3587000" />
-      <workItem from="1693733679292" duration="932000" />
+      <workItem from="1693733679292" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -234,14 +236,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Custom validator rule defined, custom validator rule for the form controls specified.">
-      <option name="closed" value="true" />
-      <created>1693036026690</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1693036026690</updated>
     </task>
     <task id="LOCAL-00085" summary="Custom validator rule defined, custom validator rule for the form controls specified.">
       <option name="closed" value="true" />
@@ -579,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693651722554</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Order history component HTML updated.">
+      <option name="closed" value="true" />
+      <created>1693734687014</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1693734687014</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +600,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Classes address, customer, order, order item, purchase created in Angular project." />
     <MESSAGE value="Checkout service created in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Checkout component updated in Angular project to make REST API call to Spring Boot backend." />
     <MESSAGE value="Configuration for OpenID Connect set up." />
@@ -623,6 +624,7 @@
     <MESSAGE value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
     <MESSAGE value="Order history service developed in Angular project." />
     <MESSAGE value="Order history component generated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Order history component generated." />
+    <MESSAGE value="Order history component HTML updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Order history component HTML updated." />
   </component>
 </project>
