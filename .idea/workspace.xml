@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="SpringSecurity configuration class added to protect endpoints for authenticated users.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +195,7 @@
       <workItem from="1693733679292" duration="3070000" />
       <workItem from="1693737886845" duration="614000" />
       <workItem from="1693764069997" duration="3784000" />
+      <workItem from="1693801506823" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -236,14 +238,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00091" summary="Angular project checkout component updated to display error messages for credit card.">
-      <option name="closed" value="true" />
-      <created>1693202801050</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1693202801050</updated>
     </task>
     <task id="LOCAL-00092" summary="Angular project checkout component and cart service updated to provide correct information in review your order field.">
       <option name="closed" value="true" />
@@ -581,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693766631987</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="SpringSecurity configuration class added to protect endpoints for authenticated users.">
+      <option name="closed" value="true" />
+      <created>1693801532934</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1693801532935</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
