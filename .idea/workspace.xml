@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="application.properties in Spring Boot project updated to support https protocol.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Okta configuration updated for secure communication with HTTPS.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/luv2code-keystore.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/config/my-app-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/config/my-app-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +199,8 @@
       <workItem from="1693803332150" duration="3784000" />
       <workItem from="1693810674582" duration="1773000" />
       <workItem from="1693812575477" duration="111000" />
-      <workItem from="1693823598866" duration="1980000" />
+      <workItem from="1693823598866" duration="2265000" />
+      <workItem from="1693843392428" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -241,14 +243,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Purchase and purchase response data transfer objects created.">
-      <option name="closed" value="true" />
-      <created>1693245128574</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1693245128574</updated>
     </task>
     <task id="LOCAL-00099" summary="Customer repository, checkout service and its implementation created in Sping Boot project.">
       <option name="closed" value="true" />
@@ -586,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693825048837</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Okta configuration updated for secure communication with HTTPS.">
+      <option name="closed" value="true" />
+      <created>1693826101314</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1693826101314</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;Member&quot; button added to login-status component, protected route defined for members-page component." />
     <MESSAGE value="Angular project cart service updated to read data from session storage." />
     <MESSAGE value="Angular cart service modified to use local storage for cart data persistence." />
     <MESSAGE value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
@@ -630,6 +631,7 @@
     <MESSAGE value="CSRF disabled in security configuration of Spring Boot project to resolve the issue with checkout." />
     <MESSAGE value="OpenSSL key and self-signed certificate generated in Angular project." />
     <MESSAGE value="application.properties in Spring Boot project updated to support https protocol." />
-    <option name="LAST_COMMIT_MESSAGE" value="application.properties in Spring Boot project updated to support https protocol." />
+    <MESSAGE value="Okta configuration updated for secure communication with HTTPS." />
+    <option name="LAST_COMMIT_MESSAGE" value="Okta configuration updated for secure communication with HTTPS." />
   </component>
 </project>
