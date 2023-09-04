@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="SpringSecurity configuration class added to protect endpoints for authenticated users.">
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Authentication interceptor service created in Angular project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,8 @@
       <workItem from="1693733679292" duration="3070000" />
       <workItem from="1693737886845" duration="614000" />
       <workItem from="1693764069997" duration="3784000" />
-      <workItem from="1693801506823" duration="915000" />
+      <workItem from="1693801506823" duration="1056000" />
+      <workItem from="1693803332150" duration="1941000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -238,14 +238,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Angular project checkout component and cart service updated to provide correct information in review your order field.">
-      <option name="closed" value="true" />
-      <created>1693210808679</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1693210808679</updated>
     </task>
     <task id="LOCAL-00093" summary="Create-order-tables spl script added for to create tables for orders, order items, customer and address in database.">
       <option name="closed" value="true" />
@@ -583,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693801532935</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Authentication interceptor service created in Angular project.">
+      <option name="closed" value="true" />
+      <created>1693802543160</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1693802543160</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +602,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Login status component created in Angular project." />
     <MESSAGE value="Login status component html and css in Angular project updated." />
     <MESSAGE value="Login status component css in Angular project updated, component added to app component html." />
     <MESSAGE value="App module configs updated to connect routes." />
@@ -627,6 +626,7 @@
     <MESSAGE value="Okta Spring Boot Starter added to Maven pom.xml." />
     <MESSAGE value="Okta OAuth2 client id and issuer added to Spring Boot application properties." />
     <MESSAGE value="SpringSecurity configuration class added to protect endpoints for authenticated users." />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity configuration class added to protect endpoints for authenticated users." />
+    <MESSAGE value="Authentication interceptor service created in Angular project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication interceptor service created in Angular project." />
   </component>
 </project>
