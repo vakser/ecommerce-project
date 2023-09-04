@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="handleAccess method updated in authentication interceptor service.">
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="app.module.ts updated to reference interceptor.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/config/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +195,7 @@
       <workItem from="1693737886845" duration="614000" />
       <workItem from="1693764069997" duration="3784000" />
       <workItem from="1693801506823" duration="1056000" />
-      <workItem from="1693803332150" duration="2245000" />
+      <workItem from="1693803332150" duration="3582000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -237,14 +238,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Address and customer entities added to Spring Boot project.">
-      <option name="closed" value="true" />
-      <created>1693213037354</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1693213037356</updated>
     </task>
     <task id="LOCAL-00095" summary="Order and order item entities added to Spring Boot project.">
       <option name="closed" value="true" />
@@ -582,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693806158352</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="app.module.ts updated to reference interceptor.">
+      <option name="closed" value="true" />
+      <created>1693806670283</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1693806670283</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +602,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Login status component css in Angular project updated, component added to app component html." />
     <MESSAGE value="App module configs updated to connect routes." />
     <MESSAGE value="App module and angular.json in Angular project updated." />
     <MESSAGE value="Members page component added to Angular project." />
@@ -626,6 +626,7 @@
     <MESSAGE value="SpringSecurity configuration class added to protect endpoints for authenticated users." />
     <MESSAGE value="Authentication interceptor service created in Angular project." />
     <MESSAGE value="handleAccess method updated in authentication interceptor service." />
-    <option name="LAST_COMMIT_MESSAGE" value="handleAccess method updated in authentication interceptor service." />
+    <MESSAGE value="app.module.ts updated to reference interceptor." />
+    <option name="LAST_COMMIT_MESSAGE" value="app.module.ts updated to reference interceptor." />
   </component>
 </project>
