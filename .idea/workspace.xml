@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Okta configuration updated for secure communication with HTTPS.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/luv2code-keystore.p12" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +204,8 @@
       <workItem from="1693810674582" duration="1773000" />
       <workItem from="1693812575477" duration="111000" />
       <workItem from="1693823598866" duration="2265000" />
-      <workItem from="1693843392428" duration="625000" />
+      <workItem from="1693843392428" duration="1117000" />
+      <workItem from="1693887345605" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -243,14 +248,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Customer repository, checkout service and its implementation created in Sping Boot project.">
-      <option name="closed" value="true" />
-      <created>1693282551038</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1693282551039</updated>
     </task>
     <task id="LOCAL-00100" summary="Checkout service placeOrder method implemented for saving the order to database.">
       <option name="closed" value="true" />
@@ -588,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693826101314</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config.">
+      <option name="closed" value="true" />
+      <created>1693844076583</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1693844076584</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Angular project cart service updated to read data from session storage." />
     <MESSAGE value="Angular cart service modified to use local storage for cart data persistence." />
     <MESSAGE value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
     <MESSAGE value="Spring Boot project configuration and repositories updated." />
@@ -632,6 +636,7 @@
     <MESSAGE value="OpenSSL key and self-signed certificate generated in Angular project." />
     <MESSAGE value="application.properties in Spring Boot project updated to support https protocol." />
     <MESSAGE value="Okta configuration updated for secure communication with HTTPS." />
-    <option name="LAST_COMMIT_MESSAGE" value="Okta configuration updated for secure communication with HTTPS." />
+    <MESSAGE value="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config." />
+    <option name="LAST_COMMIT_MESSAGE" value="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config." />
   </component>
 </project>

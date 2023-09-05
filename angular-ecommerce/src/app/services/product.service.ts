@@ -4,13 +4,14 @@ import {Observable} from "rxjs";
 import {Product} from "../common/product";
 import {map} from "rxjs/operators";
 import {ProductCategory} from "../common/product-category";
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-  private baseUrl = 'http://localhost:8080/api/products';
-  private categoryUrl = 'http://localhost:8080/api/product-category';
+  private baseUrl = environment.myShopUrl + '/products';
+  private categoryUrl = environment.myShopUrl + '/product-category';
   constructor(private httpClient: HttpClient) { }
 
   getProductListPaginate(thePage: number, thePageSize: number, theCategoryId: number): Observable<GetResponseProducts> {
