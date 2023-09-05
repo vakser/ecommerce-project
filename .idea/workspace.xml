@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Configs defined in environment file of Angular project, environment used in Angular services.">
+      <change afterPath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.qa.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/auth-interceptor.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/order-history.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/shop-form.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,40 +45,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project/db-scripts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;59f9c2e7566ecb837290fe0e9a82c58d&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vakal\\Desktop\\Down\\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\\ecommerce-project\\angular-ecommerce\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/vakal/Desktop/Down/Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10/ecommerce-project/angular-ecommerce/src/environments",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "59f9c2e7566ecb837290fe0e9a82c58d",
+    "ts.external.directory.path": "C:\\Users\\vakal\\Desktop\\Down\\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\\ecommerce-project\\angular-ecommerce\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\environments" />
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\db-scripts" />
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project" />
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets\images\products" />
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\app\components\product-list" />
-      <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
@@ -205,7 +203,8 @@
       <workItem from="1693812575477" duration="111000" />
       <workItem from="1693823598866" duration="2265000" />
       <workItem from="1693843392428" duration="1117000" />
-      <workItem from="1693887345605" duration="957000" />
+      <workItem from="1693887345605" duration="1073000" />
+      <workItem from="1693930420040" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -248,14 +247,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Checkout service placeOrder method implemented for saving the order to database.">
-      <option name="closed" value="true" />
-      <created>1693284144345</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1693284144345</updated>
     </task>
     <task id="LOCAL-00101" summary="Checkout controller added to Spring Boot project.">
       <option name="closed" value="true" />
@@ -593,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693844076584</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Configs defined in environment file of Angular project, environment used in Angular services.">
+      <option name="closed" value="true" />
+      <created>1693888394696</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1693888394697</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Angular cart service modified to use local storage for cart data persistence." />
     <MESSAGE value="Method findByEmail added to customer repository in Spring Boot project. Checkout service implementation method placeOrder updated to check if customer already exists in the database." />
     <MESSAGE value="Spring Boot project configuration and repositories updated." />
     <MESSAGE value="Spring Boot project configuration refactored." />
@@ -637,6 +635,7 @@
     <MESSAGE value="application.properties in Spring Boot project updated to support https protocol." />
     <MESSAGE value="Okta configuration updated for secure communication with HTTPS." />
     <MESSAGE value="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config." />
-    <option name="LAST_COMMIT_MESSAGE" value="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config." />
+    <MESSAGE value="Configs defined in environment file of Angular project, environment used in Angular services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configs defined in environment file of Angular project, environment used in Angular services." />
   </component>
 </project>
