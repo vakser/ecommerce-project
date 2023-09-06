@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Stripe API key configured in application.properties of Spring Boot project.">
-      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PaymentInfo.java" afterDir="false" />
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Custom PaymentInfo DTO created, CheckoutService and its implementation updated to create a PaymentIntent.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +202,7 @@
       <workItem from="1693843392428" duration="1117000" />
       <workItem from="1693887345605" duration="1073000" />
       <workItem from="1693930420040" duration="1915000" />
-      <workItem from="1693974296524" duration="3266000" />
+      <workItem from="1693974296524" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -247,14 +245,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Checkout component updated in Angular project to make REST API call to Spring Boot backend.">
-      <option name="closed" value="true" />
-      <created>1693328344940</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1693328344940</updated>
     </task>
     <task id="LOCAL-00105" summary="Configuration for OpenID Connect set up.">
       <option name="closed" value="true" />
@@ -592,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693976762884</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Custom PaymentInfo DTO created, CheckoutService and its implementation updated to create a PaymentIntent.">
+      <option name="closed" value="true" />
+      <created>1693978068754</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1693978068754</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spring Boot project configuration for REST controller created." />
     <MESSAGE value="Spring Boot application properties updated." />
     <MESSAGE value="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only." />
     <MESSAGE value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
@@ -636,6 +633,7 @@
     <MESSAGE value="New environment QA and its configuration added to Angular project" />
     <MESSAGE value="Stripe dependency added to pom.xml of Spring Boot project." />
     <MESSAGE value="Stripe API key configured in application.properties of Spring Boot project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stripe API key configured in application.properties of Spring Boot project." />
+    <MESSAGE value="Custom PaymentInfo DTO created, CheckoutService and its implementation updated to create a PaymentIntent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom PaymentInfo DTO created, CheckoutService and its implementation updated to create a PaymentIntent." />
   </component>
 </project>
