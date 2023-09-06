@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="New environment QA and its configuration added to Angular project">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Stripe dependency added to pom.xml of Spring Boot project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +202,7 @@
       <workItem from="1693843392428" duration="1117000" />
       <workItem from="1693887345605" duration="1073000" />
       <workItem from="1693930420040" duration="1915000" />
-      <workItem from="1693974296524" duration="670000" />
+      <workItem from="1693974296524" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -245,14 +245,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Classes address, customer, order, order item, purchase created in Angular project.">
-      <option name="closed" value="true" />
-      <created>1693321753627</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1693321753627</updated>
     </task>
     <task id="LOCAL-00103" summary="Checkout service created in Angular project to make REST API call to Spring Boot backend.">
       <option name="closed" value="true" />
@@ -590,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693932313430</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Stripe dependency added to pom.xml of Spring Boot project.">
+      <option name="closed" value="true" />
+      <created>1693975035389</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1693975035390</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spring Boot project configuration and repositories updated." />
     <MESSAGE value="Spring Boot project configuration refactored." />
     <MESSAGE value="Spring Boot project configuration for REST controller created." />
     <MESSAGE value="Spring Boot application properties updated." />
@@ -634,6 +633,7 @@
     <MESSAGE value="Key and self-signed certificate generated for Spring Boot project, application.properties updated with security config." />
     <MESSAGE value="Configs defined in environment file of Angular project, environment used in Angular services." />
     <MESSAGE value="New environment QA and its configuration added to Angular project" />
-    <option name="LAST_COMMIT_MESSAGE" value="New environment QA and its configuration added to Angular project" />
+    <MESSAGE value="Stripe dependency added to pom.xml of Spring Boot project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stripe dependency added to pom.xml of Spring Boot project." />
   </component>
 </project>
