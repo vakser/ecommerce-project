@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Stripe dependency added to pom.xml of Spring Boot project.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Stripe API key configured in application.properties of Spring Boot project.">
+      <change afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PaymentInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +204,7 @@
       <workItem from="1693843392428" duration="1117000" />
       <workItem from="1693887345605" duration="1073000" />
       <workItem from="1693930420040" duration="1915000" />
-      <workItem from="1693974296524" duration="1997000" />
+      <workItem from="1693974296524" duration="3266000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -245,14 +247,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Checkout service created in Angular project to make REST API call to Spring Boot backend.">
-      <option name="closed" value="true" />
-      <created>1693324160929</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1693324160929</updated>
     </task>
     <task id="LOCAL-00104" summary="Checkout component updated in Angular project to make REST API call to Spring Boot backend.">
       <option name="closed" value="true" />
@@ -590,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693975035390</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Stripe API key configured in application.properties of Spring Boot project.">
+      <option name="closed" value="true" />
+      <created>1693976762884</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1693976762884</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spring Boot project configuration refactored." />
     <MESSAGE value="Spring Boot project configuration for REST controller created." />
     <MESSAGE value="Spring Boot application properties updated." />
     <MESSAGE value="Order repository created in Spring Boot application, configuration updated to make OrderRepository REST API read only." />
@@ -634,6 +635,7 @@
     <MESSAGE value="Configs defined in environment file of Angular project, environment used in Angular services." />
     <MESSAGE value="New environment QA and its configuration added to Angular project" />
     <MESSAGE value="Stripe dependency added to pom.xml of Spring Boot project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stripe dependency added to pom.xml of Spring Boot project." />
+    <MESSAGE value="Stripe API key configured in application.properties of Spring Boot project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stripe API key configured in application.properties of Spring Boot project." />
   </component>
 </project>
