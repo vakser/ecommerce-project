@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Typescript declaration file created, Stripe publishable key added, custom PaymentInfo DTO created in Angular project.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/services/checkout.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -204,7 +205,9 @@
       <workItem from="1693930420040" duration="1915000" />
       <workItem from="1693974296524" duration="4611000" />
       <workItem from="1693988529240" duration="892000" />
-      <workItem from="1694000718494" duration="316000" />
+      <workItem from="1694000718494" duration="1360000" />
+      <workItem from="1694010062613" duration="1809000" />
+      <workItem from="1694061149631" duration="4132000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -247,14 +250,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Login component generated in Angular project.">
-      <option name="closed" value="true" />
-      <created>1693402175950</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1693402175950</updated>
     </task>
     <task id="LOCAL-00108" summary="ngOnInit method implemented in login component of Angular project.">
       <option name="closed" value="true" />
@@ -592,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693989389289</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html.">
+      <option name="closed" value="true" />
+      <created>1694001331110</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1694001331111</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Login status component of Angular project updated to keep track of logged-in user's email with web browser storage. Class OrderHistory created." />
     <MESSAGE value="Order history service developed in Angular project." />
     <MESSAGE value="Order history component generated." />
     <MESSAGE value="Order history component HTML updated." />
@@ -636,6 +638,7 @@
     <MESSAGE value="Custom PaymentInfo DTO created, CheckoutService and its implementation updated to create a PaymentIntent." />
     <MESSAGE value="CheckoutController updated to expose /payment-intent endpoint." />
     <MESSAGE value="Typescript declaration file created, Stripe publishable key added, custom PaymentInfo DTO created in Angular project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Typescript declaration file created, Stripe publishable key added, custom PaymentInfo DTO created in Angular project." />
+    <MESSAGE value="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html." />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html." />
   </component>
 </project>
