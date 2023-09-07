@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Description of payment added to CheckoutServiceImpl of Spring Boot project.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Checkout component of Angular project updated to disable &quot;Purchase&quot; button after it was clicked once.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/common/payment-info.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/common/payment-info.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/dto/PaymentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +213,7 @@
       <workItem from="1694074782836" duration="2328000" />
       <workItem from="1694079830612" duration="1154000" />
       <workItem from="1694082058887" duration="1434000" />
-      <workItem from="1694100627891" duration="605000" />
+      <workItem from="1694100627891" duration="2306000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -254,14 +256,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00113" summary="App module and angular.json in Angular project updated.">
-      <option name="closed" value="true" />
-      <created>1693456983696</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1693456983696</updated>
     </task>
     <task id="LOCAL-00114" summary="Members page component added to Angular project.">
       <option name="closed" value="true" />
@@ -599,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694083479127</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Checkout component of Angular project updated to disable &quot;Purchase&quot; button after it was clicked once.">
+      <option name="closed" value="true" />
+      <created>1694101594329</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1694101594329</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +620,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Checkout component of Angular project updated to prepopulate user's email address in the form at checkout time." />
     <MESSAGE value="Okta Spring Boot Starter added to Maven pom.xml." />
     <MESSAGE value="Okta OAuth2 client id and issuer added to Spring Boot application properties." />
     <MESSAGE value="SpringSecurity configuration class added to protect endpoints for authenticated users." />
@@ -643,6 +644,7 @@
     <MESSAGE value="Bug fixed in checkout component of Angular project for the shopping card not emptied after payment processing is finished." />
     <MESSAGE value="Billing details added to checkout component of Angular project to save in Stripe payments history." />
     <MESSAGE value="Description of payment added to CheckoutServiceImpl of Spring Boot project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Description of payment added to CheckoutServiceImpl of Spring Boot project." />
+    <MESSAGE value="Checkout component of Angular project updated to disable &quot;Purchase&quot; button after it was clicked once." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout component of Angular project updated to disable &quot;Purchase&quot; button after it was clicked once." />
   </component>
 </project>
