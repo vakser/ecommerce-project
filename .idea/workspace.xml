@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="CheckoutComponent in Angular project updated to process payments with Stripe.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Bug fixed for total amount payment processing with Stripe.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,8 @@
       <workItem from="1694000718494" duration="1360000" />
       <workItem from="1694010062613" duration="1809000" />
       <workItem from="1694061149631" duration="4261000" />
-      <workItem from="1694074782836" duration="2203000" />
+      <workItem from="1694074782836" duration="2328000" />
+      <workItem from="1694079830612" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -251,14 +251,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Login status component created in Angular project.">
-      <option name="closed" value="true" />
-      <created>1693417572127</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1693417572127</updated>
     </task>
     <task id="LOCAL-00110" summary="Login status component html and css in Angular project updated.">
       <option name="closed" value="true" />
@@ -596,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694068991127</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Bug fixed for total amount payment processing with Stripe.">
+      <option name="closed" value="true" />
+      <created>1694077096478</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1694077096479</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Order history component generated." />
     <MESSAGE value="Order history component HTML updated." />
     <MESSAGE value="Orders button added to login-status component of Angular app, protected route defined for order-history component, width of the search field changed in styles.css file." />
     <MESSAGE value="Order Repository in Spring Boot project and order-history service in Angular project updated to sort orders in descending order." />
@@ -640,6 +639,7 @@
     <MESSAGE value="Typescript declaration file created, Stripe publishable key added, custom PaymentInfo DTO created in Angular project." />
     <MESSAGE value="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html." />
     <MESSAGE value="CheckoutComponent in Angular project updated to process payments with Stripe." />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckoutComponent in Angular project updated to process payments with Stripe." />
+    <MESSAGE value="Bug fixed for total amount payment processing with Stripe." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed for total amount payment processing with Stripe." />
   </component>
 </project>
