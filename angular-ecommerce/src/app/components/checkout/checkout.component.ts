@@ -22,8 +22,6 @@ export class CheckoutComponent implements OnInit {
   checkoutFormGroup!: FormGroup;
   totalPrice: number = 0;
   totalQuantity: number = 0;
-  creditCardYears: number[] = [];
-  creditCardMonths: number[] = [];
   countries: Country[] = [];
   shippingAddressStates: State[] = [];
   billingAddressStates: State[] = [];
@@ -116,8 +114,9 @@ export class CheckoutComponent implements OnInit {
     purchase.order = order;
     purchase.orderItems = orderItems;
     // compute payment info
-    this.paymentInfo.amount = this.totalPrice * 100;
+    this.paymentInfo.amount = Math.round(this.totalPrice * 100);
     this.paymentInfo.currency = "USD";
+    console.log(`this.paymentInfo.amount: ${this.paymentInfo.amount}`);
     // if valid form then
     // - create payment intent
     // - confirm card payment
@@ -171,12 +170,6 @@ export class CheckoutComponent implements OnInit {
   get billingAddressState() { return this.checkoutFormGroup.get('billingAddress.state'); }
   get billingAddressCountry() { return this.checkoutFormGroup.get('billingAddress.country'); }
   get billingAddressZipCode() { return this.checkoutFormGroup.get('billingAddress.zipCode'); }
-  get creditCardType() { return this.checkoutFormGroup.get('creditCard.cardType'); }
-  get creditCardNameOnCard() { return this.checkoutFormGroup.get('creditCard.nameOnCard'); }
-  get creditCardNumber() { return this.checkoutFormGroup.get('creditCard.cardNumber'); }
-  get creditCardSecurityCode() { return this.checkoutFormGroup.get('creditCard.securityCode'); }
-
-
   copyShippingAddressToBillingAddress(event: any) {
     if (event.target.checked) {
       this.checkoutFormGroup.controls['billingAddress'].setValue(this.checkoutFormGroup.controls['shippingAddress'].value);
@@ -188,26 +181,6 @@ export class CheckoutComponent implements OnInit {
       this.billingAddressStates = [];
     }
   }
-
-  handleMonthsAndYears() {
-    const creditCardFormGroup = this.checkoutFormGroup.get('creditCard');
-    const currentYear: number = new Date().getFullYear();
-    const selectedYear: number = Number(creditCardFormGroup?.value.expirationYear);
-    // if the current year equals the selected year, then start with the current month
-    let startMonth: number;
-    if (currentYear === selectedYear) {
-      startMonth = new Date().getMonth() + 1;
-    } else {
-      startMonth = 1;
-    }
-    this.shopFormService.getCreditCardMonths(startMonth).subscribe(
-      data => {
-        console.log("Retrieved credit card months: " + JSON.stringify(data));
-        this.creditCardMonths = data;
-      }
-    );
-  }
-
   getStates(formGroupName: string) {
     const formGroup = this.checkoutFormGroup.get(formGroupName);
     const countryCode = formGroup?.value.country.code;

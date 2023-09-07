@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="CheckoutComponent in Angular project updated to process payments with Stripe.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/controller/CheckoutController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,8 @@
       <workItem from="1693988529240" duration="892000" />
       <workItem from="1694000718494" duration="1360000" />
       <workItem from="1694010062613" duration="1809000" />
-      <workItem from="1694061149631" duration="4132000" />
+      <workItem from="1694061149631" duration="4261000" />
+      <workItem from="1694074782836" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -250,14 +251,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00108" summary="ngOnInit method implemented in login component of Angular project.">
-      <option name="closed" value="true" />
-      <created>1693416326131</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1693416326132</updated>
     </task>
     <task id="LOCAL-00109" summary="Login status component created in Angular project.">
       <option name="closed" value="true" />
@@ -595,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694001331111</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="CheckoutComponent in Angular project updated to process payments with Stripe.">
+      <option name="closed" value="true" />
+      <created>1694068991127</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1694068991127</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Order history service developed in Angular project." />
     <MESSAGE value="Order history component generated." />
     <MESSAGE value="Order history component HTML updated." />
     <MESSAGE value="Orders button added to login-status component of Angular app, protected route defined for order-history component, width of the search field changed in styles.css file." />
@@ -639,6 +639,7 @@
     <MESSAGE value="CheckoutController updated to expose /payment-intent endpoint." />
     <MESSAGE value="Typescript declaration file created, Stripe publishable key added, custom PaymentInfo DTO created in Angular project." />
     <MESSAGE value="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html." />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckoutService updated to create a PaymentIntent, Stripe JavaScript library loaded in index.html." />
+    <MESSAGE value="CheckoutComponent in Angular project updated to process payments with Stripe." />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckoutComponent in Angular project updated to process payments with Stripe." />
   </component>
 </project>
