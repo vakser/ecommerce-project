@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Bug fixed in checkout component of Angular project for the shopping card not emptied after payment processing is finished.">
+    <list default="true" id="6433a605-8bdc-42b6-9c79-bff9ca34b8f9" name="Changes" comment="Billing details added to checkout component of Angular project to save in Stripe payments history.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-ecommerce/src/main/java/com/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <recent name="C:\Users\vakal\Desktop\Down\Udemy - Full Stack Angular and Java Spring Boot E-Commerce Website 2022-10\ecommerce-project\angular-ecommerce\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (angular-ecommerce)">
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="Tests (angular-ecommerce)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/angular-ecommerce/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/angular-ecommerce/node_modules/@angular/cli" />
@@ -209,7 +209,7 @@
       <workItem from="1694061149631" duration="4261000" />
       <workItem from="1694074782836" duration="2328000" />
       <workItem from="1694079830612" duration="1154000" />
-      <workItem from="1694082058887" duration="297000" />
+      <workItem from="1694082058887" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure updated">
       <created>1692186673570</created>
@@ -252,14 +252,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1692196468827</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Login status component css in Angular project updated, component added to app component html.">
-      <option name="closed" value="true" />
-      <created>1693419490191</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1693419490191</updated>
     </task>
     <task id="LOCAL-00112" summary="App module configs updated to connect routes.">
       <option name="closed" value="true" />
@@ -597,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694080774447</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Billing details added to checkout component of Angular project to save in Stripe payments history.">
+      <option name="closed" value="true" />
+      <created>1694082672751</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1694082672752</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Orders button added to login-status component of Angular app, protected route defined for order-history component, width of the search field changed in styles.css file." />
     <MESSAGE value="Order Repository in Spring Boot project and order-history service in Angular project updated to sort orders in descending order." />
     <MESSAGE value="Checkout component of Angular project updated to prepopulate user's email address in the form at checkout time." />
     <MESSAGE value="Okta Spring Boot Starter added to Maven pom.xml." />
@@ -641,6 +640,7 @@
     <MESSAGE value="CheckoutComponent in Angular project updated to process payments with Stripe." />
     <MESSAGE value="Bug fixed for total amount payment processing with Stripe." />
     <MESSAGE value="Bug fixed in checkout component of Angular project for the shopping card not emptied after payment processing is finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed in checkout component of Angular project for the shopping card not emptied after payment processing is finished." />
+    <MESSAGE value="Billing details added to checkout component of Angular project to save in Stripe payments history." />
+    <option name="LAST_COMMIT_MESSAGE" value="Billing details added to checkout component of Angular project to save in Stripe payments history." />
   </component>
 </project>
